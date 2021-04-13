@@ -1,0 +1,35 @@
+name: electronic_magazine_flutter
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cached_network_image:
+  cupertino_icons:
+  google_fonts:
+  http:
+  lipsum:
+  move_to_background:
+  native_pdf_renderer:
+  path:
+  path_provider:
+  photo_view:
+  transparent_image:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
